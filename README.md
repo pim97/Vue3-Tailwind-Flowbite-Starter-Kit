@@ -1,6 +1,8 @@
-# Welcome to the Powerful Trio - Tailwind CSS, Vue 3, and Flowbite Starter (Vite)
+# Welcome to the Powerful Trio - Tailwind CSS, Vue 3, and Flowbite Starter (Vite) - Dark Mode
 
 Eager to kickstart your web application development journey? This dynamic starter project, which weaves together the best of Tailwind CSS, Vue 3, and Flowbite, is just the ticket! We've designed this repository with reference to the insightful [Tailwind CSS + Vue guide](https://flowbite.com/docs/getting-started/vue/) over on the Flowbite website. 
+
+![alt text](https://i.imgur.com/5zEAbXc.png)
 
 ## Your First Steps in Setting Up
 
