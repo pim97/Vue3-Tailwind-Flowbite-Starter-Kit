@@ -1,5 +1,5 @@
 <script setup>
-import TreeShaking from './views/Components/TreeShaking.vue';
+import TreeShaking from './views/components/TreeShaking.vue';
 
 
 </script>

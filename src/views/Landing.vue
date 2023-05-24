@@ -1,11 +1,11 @@
 <script setup>
-import Header from '@/views/Components/Header.vue';
-import Hero from '@/views/Components/Hero.vue';
-import Customers from '@/views/Components/Customers.vue';
-import Features from '@/views/Components/Features.vue';
-import Content from '@/views/Components/Content.vue';
-import Cta from '@/views/Components/Cta.vue';
-import Footer from '@/views/Components/Footer.vue';
+import Header from '@/views/components/Header.vue';
+import Hero from '@/views/components/Hero.vue';
+import Customers from '@/views/components/Customers.vue';
+import Features from '@/views/components/Features.vue';
+import Content from '@/views/components/Content.vue';
+import Cta from '@/views/components/Cta.vue';
+import Footer from '@/views/components/Footer.vue';
 import { onMounted } from 'vue';
 
 

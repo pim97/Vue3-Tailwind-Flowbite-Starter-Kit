@@ -10,11 +10,13 @@
   ],
   "author": "Bergside Inc.",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host --debug",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "clear": "vite clear"
   },
   "dependencies": {
+    "@heroicons/vue": "^2.0.18",
     "flowbite": "^1.6.5",
     "vue": "^3.2.25",
     "vue-router": "^4.1.6"

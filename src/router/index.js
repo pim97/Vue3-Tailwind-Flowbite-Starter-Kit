@@ -12,6 +12,7 @@ import Tabs from "@/views/Tabs.vue";
 import Tooltip from "@/views/Tooltip.vue";
 import Modal from "@/views/Modal.vue";
 import Buttons from "@/views/Buttons.vue";
+import Breadcrumbs from "@/views/Breadcrumbs.vue";
 
 const routes = [
   {
@@ -78,6 +79,11 @@ const routes = [
     path: "/buttons",
     name: "Buttons",
     component: Buttons,
+  },
+  {
+    path: "/breadcrumbs",
+    name: "Breadcrumbs",
+    component: Breadcrumbs,
   },
   {
     path: "/landing",
