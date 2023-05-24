@@ -1,16 +1,17 @@
 import { createWebHistory, createRouter } from "vue-router";
-import Events from "../views/Events.vue";
-import Accordion from "../views/Accordion.vue";
-import Carousel from "../views/Carousel.vue";
-import Collapse from "../views/Collapse.vue";
-import Dial from "../views/Dial.vue";
-import Dismiss from "../views/Dismiss.vue";
-import Drawer from "../views/Drawer.vue";
-import Dropdown from "../views/Dropdown.vue";
-import Popover from "../views/Popover.vue";
-import Tabs from "../views/Tabs.vue";
-import Tooltip from "../views/Tooltip.vue";
-import Modal from "../views/Modal.vue";
+import Events from "@/views/Events.vue";
+import Accordion from "@/views/Accordion.vue";
+import Carousel from "@/views/Carousel.vue";
+import Collapse from "@/views/Collapse.vue";
+import Dial from "@/views/Dial.vue";
+import Dismiss from "@/views/Dismiss.vue";
+import Drawer from "@/views/Drawer.vue";
+import Dropdown from "@/views/Dropdown.vue";
+import Popover from "@/views/Popover.vue";
+import Tabs from "@/views/Tabs.vue";
+import Tooltip from "@/views/Tooltip.vue";
+import Modal from "@/views/Modal.vue";
+import Buttons from "@/views/Buttons.vue";
 
 const routes = [
   {
@@ -72,6 +73,16 @@ const routes = [
     path: "/modal",
     name: "Modal",
     component: Modal,
+  },
+  {
+    path: "/buttons",
+    name: "Buttons",
+    component: Buttons,
+  },
+  {
+    path: "/landing",
+    name: "Landing",
+    component: () => import("@/views/Landing.vue"),
   },
 ];
 

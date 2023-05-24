@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   darkMode: 'class',
   content: [
@@ -6,6 +8,11 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
     "./node_modules/flowbite/**/*.js",
   ],
+  // safelist: [
+  //   {
+  //     pattern: /(.*)/,
+  //   },
+  // ],
   theme: {
     extend: {
       colors: {
